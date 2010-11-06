@@ -16,7 +16,7 @@ Bull - Number of characters in your guess that exist in the answer and match the
 Cow - Number of characters that exist in the answer but don't match the exact spot.
 
 eg:
-
+<pre>
 +-------+------+-----+-----+
 |Answer |Guess |Cows |Bulls|
 +-------+------+-----+-----+
@@ -25,9 +25,10 @@ eg:
 | salt  | malt |  0  |  3  |
 | salt  | salt |  0  |  4  |<--WIN
 +-------+------+-----+-----+
-
+</pre>
 Game Output:
 ------------
+<pre>
 $ ./cab.py
 1 Input a Word: card
 cow,bull 0 1
@@ -39,4 +40,4 @@ cow,bull 0 3
 cow,bull 0 4
 Victory!!
 Wow! that only took like 4 attempts.
-
+</pre>
