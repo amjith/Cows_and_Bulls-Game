@@ -1,11 +1,12 @@
 Installation:
+-------------
 There is no installation, you just need python interpreter to run the program. 
 
 python cab.py 
 
 
 What is Cows and Bulls Game?
-
+----------------------------
 'Cows and Bulls' is a text based word game. Your goal is to guess the 4 letter word. You have eight attempts to guess. 
 
 For each guess the computer will say how close your guess is to the answer. 
@@ -25,6 +26,17 @@ eg:
 | salt  | salt |  0  |  4  |<--WIN
 +-------+------+-----+-----+
 
-
-
+Game Output:
+------------
+$ ./cab.py
+1 Input a Word: card
+cow,bull 0 1
+2 Input a Word: mats
+cow,bull 2 1
+3 Input a Word: malt
+cow,bull 0 3
+4 Input a Word: salt
+cow,bull 0 4
+Victory!!
+Wow! that only took like 4 attempts.
 
