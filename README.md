@@ -17,16 +17,23 @@ Cow - Number of characters that exist in the answer but don't match the exact sp
 
 eg:
 
-<pre>
-+-------+------+-----+-----+
-|Answer |Guess |Cows |Bulls|
-+-------+------+-----+-----+
-| salt  | card |  0  |  1  |
-| salt  | mats |  2  |  1  |
-| salt  | malt |  0  |  3  |
-| salt  | salt |  0  |  4  |<--WIN
-+-------+------+-----+-----+
-</pre>
+<table>
+    <tr>
+        <th>Answer</th><th>Guess</th><th>Cows</th><th>Bulls</th>
+    </tr>
+    <tr>
+        <td>salt</td><td>card</td><td>0</td><td>1</td>
+    </tr>
+    <tr>
+        <td>salt</td><td>mats</td><td>2</td><td>1</td>
+    </tr>
+    <tr>
+        <td>salt</td><td>malt</td><td>0</td><td>3</td>
+    </tr>
+    <tr>
+        <td>salt</td><td>salt</td><td>0</td><td>4</td>
+    </tr>
+</table>
 
 Game Output:
 ------------
