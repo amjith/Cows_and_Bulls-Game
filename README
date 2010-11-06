@@ -1,0 +1,30 @@
+Installation:
+There is no installation, you just need python interpreter to run the program. 
+
+python cab.py 
+
+
+What is Cows and Bulls Game?
+
+'Cows and Bulls' is a text based word game. Your goal is to guess the 4 letter word. You have eight attempts to guess. 
+
+For each guess the computer will say how close your guess is to the answer. 
+
+Bull - Number of characters in your guess that exist in the answer and match the location. 
+
+Cow - Number of characters that exist in the answer but don't match the exact spot.
+
+eg:
+
++-------+------+-----+-----+
+|Answer |Guess |Cows |Bulls|
++-------+------+-----+-----+
+| salt  | card |  0  |  1  |
+| salt  | mats |  2  |  1  |
+| salt  | malt |  0  |  3  |
+| salt  | salt |  0  |  4  |<--WIN
++-------+------+-----+-----+
+
+
+
+
